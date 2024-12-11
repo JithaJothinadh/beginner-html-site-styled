@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     DOCKER_IMAGE = 'Jitha.jothinadh/beginner-html-site-styled'
-    DOCKER_CREDENTIALS_ID = 'docker-hub-credentials' // Ensure this matches your Jenkins credentials ID
+    DOCKER_CREDENTIALS_ID = 'ebd56579-c298-4c3c-b3e7-8726e7a80bbd' // Ensure this matches your Jenkins credentials ID
     KUBE_CONFIG = '/etc/kubernetes/admin.conf'
   }
   stages {
